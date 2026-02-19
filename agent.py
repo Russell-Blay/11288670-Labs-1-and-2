@@ -16,8 +16,8 @@ class HelloAgent(Agent):
 
 async def main():
     
-    jid = "your_username@xmpp.jp"
-    password = "your_password"
+    jid = "russell21@xmpp.jp"
+    password = "russell"
 
     agent = HelloAgent(jid, password)
     await agent.start()
